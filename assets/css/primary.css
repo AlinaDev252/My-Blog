@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap);
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 14vh 70vh 3vh;
+    grid-gap: 1em;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header,
+footer {
+    grid-column: 1 / span 5;
+}
+
+main {
+    grid-column: 1 / span 3;
+}
+
+aside {
+    grid-column: span 2;
+}
+
+@media (max-width: 700px) {
+    main,
+    aside {
+        grid-column: 1 / span 5;
+    }
+}
+
+body {
+    margin: 0 auto;
+    max-width: 70em;
+    padding: 1em 0;
+}
+
+main,
+aside,
+footer {
+    display: flex;
+    background: #eaeaea;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fdf0e9;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #fdf0e9;
+    font-size: 12px;
+    line-height: 32px;
+    padding: 0 20px;
+}
+
+nav a {
+    padding: 5px;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 10px;
+    line-height: 32px
+}
+
+nav a:hover {
+    color: #333;
+    transition: 0.3s ease;
+}
+
+.flex {
+    display: flex;
+}
+
+header .logo {
+    max-width: 100px;
+    line-height: 48px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #333;
+}
+
+.social-media a img {
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(240, 120, 103, 0.295828);
+    border-radius: 24px;
+    margin-top: 10px;
+}
