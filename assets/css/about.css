@@ -1,0 +1,40 @@
+.author-box {
+  display: block;
+  padding: 20px;
+  text-align: left;
+  margin: 10px;
+}
+
+.author-box-content {
+margin: 20px;
+font-size: 16px;
+}
+
+.avatar-photo {
+  background-image: url(../img/me.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  border-radius: 10px;
+  width: 100%; 
+}
+
+.facts { 
+  padding: 8px;
+  align-items: right;
+  margin-block-start: 0;
+}
+
+.random-facts{
+  font-size: 16px;
+  margin: 20px;
+}
+
+ .random-facts h1, .random-facts h2 {
+  font-style: oblique;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-family: 'Gaegu', cursive;
+  font-size: 35px;
+}

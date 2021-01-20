@@ -3,12 +3,66 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/primary.css">
+    <title>My Blog</title>
 </head>
 
 <body>
-    <h3>Contact page</h3>
+    <header class="header">
+        <h1 class="logo">alina.digital</h1>
+        <nav class="flex">
+            <a href="main_page.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+    <main>
+   	<div class="contact1">
+		  <div class="container-contact1">
+			  <form class="contact1-form validate-form">
+				  <span class="contact1-form-title">Get in touch</span>
+              <h2 class="center-h2">I would love to hear from you!</h2>
+				<div class="wrap-input1 validate-input" data-validate = "Name is required">
+					<input class="input1" type="text" name="name" placeholder="Name">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<input class="input1" type="text" name="email" placeholder="Email">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Subject is required">
+					<input class="input1" type="text" name="subject" placeholder="Subject">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Message is required">
+					<textarea class="input1" name="message" placeholder="Message"></textarea>
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="container-contact1-form-btn">
+					<button>Send Email</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+    </main>
+
+    <footer>
+        <h3>Copyright 2021 © Alina Goiea</h3>
+        <div class="social-media">
+            <a href="https://github.com/AlinaDev252"><img src="assets/img/github.png"></a>
+            <a href="https://www.facebook.com/alina.costache.545/"><img src="assets/img/facebook.png"></a>
+            <a href="https://twitter.com/AGoiea"><img src="assets/img/twitter.png"></a>
+            <a href="https://www.instagram.com/alina.goiea/"><img src="assets/img/instagram.png"></a>
+        </div>
+    </footer>
+
 </body>
 
 </html>
