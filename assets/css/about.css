@@ -32,7 +32,7 @@ font-size: 16px;
 }
 
  .random-facts h1, .random-facts h2 {
-  font-style: oblique;
+  font-style: italic;
   font-weight: 700;
   margin-bottom: 0;
   font-family: 'Gaegu', cursive;

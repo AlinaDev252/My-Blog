@@ -20,6 +20,10 @@ main {
     background-color: #b5d2cb;
 }
 
+main {
+    flex-direction: column;
+}
+
 @media (max-width: 700px) {
     main,
     aside {
@@ -289,6 +293,7 @@ button {
   align-items: center;
   padding: 0 25px;
   border: 0px;
+  z-index: 2;
 
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -306,4 +311,20 @@ button:hover {
         display: block;
         margin: 0.2em auto;
     }
+}
+
+.subscribe {
+    display:flex;
+    min-height: 120px;
+    min-width: 500px;
+    align-items: center;
+    
+}
+
+.subscribe button {
+    border-radius: 0 25px 25px 0;
+} 
+.subscribe .wrap-input1 {
+    height: 50px;
+    margin-bottom: 0;
 }
