@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap);
 @import url(contact.css);
 @import url(about.css);
+@import url(post1.css);
+@import url(post2.css);
+@import url(post3.css);
 
 body {
     display: grid;
@@ -11,6 +14,18 @@ body {
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 16px;
 }
 
 header,
@@ -234,7 +249,6 @@ header .logo {
     font-weight: normal;
 }
 
-
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1285px) {
@@ -276,29 +290,29 @@ header .logo {
 }
 
 button {
-  min-width: 193px;
-  height: 50px;
-  border-radius: 25px;
-  background: #474a48;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-  color: #fff;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 25px;
-  border: 0px;
-  z-index: 2;
+    min-width: 193px;
+    height: 50px;
+    border-radius: 25px;
+    background: #474a48;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    border: 0px;
+    z-index: 2;
 
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
 }
 
 button:hover {
@@ -318,12 +332,13 @@ button:hover {
     min-height: 120px;
     min-width: 500px;
     align-items: center;
-    
+      
 }
 
 .subscribe button {
     border-radius: 0 25px 25px 0;
 } 
+
 .subscribe .wrap-input1 {
     height: 50px;
     margin-bottom: 0;
