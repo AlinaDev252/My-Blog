@@ -1,0 +1,128 @@
+.post-title {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0.3rem;
+	background-color: #b5d2cb;
+	font-family: "DM Sans", sans-serif;
+}
+
+.post-title .date {
+	font-style: italic;
+	text-align: center;
+	text-decoration: underline;
+	text-indent: 0px;
+}
+
+.post-title h1 {
+	font-style: bold;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.post-title p {
+	padding-left: 82px;
+	padding-right: 82px;
+	text-indent: 30px;
+	margin: 0;
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+
+.img-post {
+	max-width: 90%;
+	height: auto;
+	border-radius: 5px;
+	margin: auto;
+}
+
+.auhor-info {
+	display: flex;
+	padding: 20px;
+}
+
+.img-avatar {
+	width: 200px;
+	height: 200px;
+}
+
+.auhor-info .avatar {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	align-content: center;
+	border-radius: 100px;
+}
+
+.auhor-info .wrapper-info {
+	margin: 30px 20px;
+	font-weight: bold;
+	text-align: left;
+	font-style: italic;
+	font-family: "Gaegu", cursive;
+	max-width: 69%;
+}
+
+.wrapper-info p {
+	margin: 0;
+	font-size: 17px;
+	max-width: 600px;
+}
+
+.wrapper-info .name {
+	font-size: 32px;
+	font-style: normal;
+	padding-bottom: 10px;
+}
+
+.text-content {
+	padding-top: 20px;
+}
+
+.name a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.name a:hover {
+	color: #555358;
+}
+
+.wrapper-buttons {
+	align-content: center;
+	border-style: dashed;
+	border-color: #474a48;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 0px 20px 31px 57px;
+	height: 66px;
+}
+
+.wrapper-buttons h3 {
+	margin: 10px;
+	font-style: italic;
+	color: #00296b;
+	font-weight: bold;
+	text-align: center;
+}
+#share-buttons img {
+	width: 35px;
+	padding: 5px;
+	border: 0;
+	box-shadow: 0;
+	display: inline;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.wrapper-buttons #share-buttons {
+	height: 34px;
+	margin: 16px;
+	align-self: baseline;
+	text-align: center;
+}
+
+#share-buttons a {
+	text-decoration: none;
+}

@@ -1,95 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/css/primary.css" />
+		<title>My Blog</title>
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/primary.css">
-  <title>My Blog</title>
-</head>
+	<body>
+		<header class="header">
+			<h1 class="logo"><a href="main_page.html">alina.digital</a></h1>
+			<nav class="flex">
+				<a href="main_page.html" class="active">Home</a>
+				<a href="about.html">About</a>
+				<a href="contact.html">Contact</a>
+			</nav>
 
-<body>
-  <header class="header">
-    <h1 class="logo">alina.digital</h1>
-    <nav class="flex">
-      <a href="main_page.html" class="active">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+			<!-- Second blogpost content -->
+		</header>
+		<main>
+			<section class="content-wrapper">
+				<article class="post-title">
+					<h1>Motivational quotes for beginner programmers</h1>
+					<p class="date">09 January 2021</p>
+					<img src="assets/img/post2.jpg" class="img-post" />
+					<div class="text-content">
+						<p>
+							Etiam suscipit ipsum diam, vel commodo orci tincidunt fringilla. Aliquam sodales sit amet mi sit amet
+							fringilla. In vel ipsum non magna malesuada tempus. Duis ac sem leo. Curabitur interdum varius dignissim.
+							Maecenas sit amet porta purus. Maecenas accumsan felis vitae pharetra ornare.
+						</p>
+						<p>
+							Donec aliquet magna eget cursus blandit. Integer sed imperdiet arcu, eleifend consequat risus. Maecenas
+							interdum elementum nisl ullamcorper posuere. Duis interdum dignissim velit, ac semper nisi dignissim
+							feugiat. Maecenas ac ipsum nec turpis tristique pulvinar vel eleifend erat.
+						</p>
+					</div>
+				</article>
+			</section>
 
-<!-- Second blogpost content -->
-  </header>
-  <main>
-    <section class="content-wrapper">
-      <article class="post-title">
-        <h1>Motivational quotes for beginner programmers</h1>
-        <p class="date">09 January 2021</p>
-        <img src='assets/img/post2.jpg' class="img-post">
-        <div class="text-content">
-          <p>Etiam suscipit ipsum diam, vel commodo orci tincidunt fringilla. Aliquam sodales sit amet mi sit amet fringilla. In vel
-          ipsum non magna malesuada tempus. Duis ac sem leo. Curabitur interdum varius dignissim. Maecenas sit amet porta purus.
-          Maecenas accumsan felis vitae pharetra ornare. </p>
-          <p>Donec aliquet magna eget cursus blandit. Integer sed imperdiet arcu, eleifend consequat risus. Maecenas interdum elementum nisl ullamcorper posuere. Duis interdum dignissim velit, ac semper
-          nisi dignissim feugiat. Maecenas ac ipsum nec turpis tristique pulvinar vel eleifend erat.</p>
-        </div>
-      </article>
-    </section>
+			<!-- Social sharing buttons -->
+			<div class="wrapper-buttons">
+				<h3 class="share-text">If you like this article, please do share it with your friends!</h3>
+				<div id="share-buttons">
+					<!-- Facebook -->
+					<a href="http://www.facebook.com/sharer.php?u=https://Blog/post1.html" target="_blank">
+						<img src="assets/img/facebook2.png" alt="Facebook" />
+					</a>
+					<!-- Twitter -->
+					<a
+						href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons"
+						target="_blank"
+					>
+						<img src="assets/img/twitter2.png" alt="Twitter" />
+					</a>
+					<!-- LinkedIn -->
+					<a
+						href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com"
+						target="_blank"
+					>
+						<img src="assets/img/linkedin.png" alt="LinkedIn" />
+					</a>
+					<!-- Email -->
+					<a
+						href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com"
+					>
+						<img src="assets/img/email.png" alt="Email" />
+					</a>
+				</div>
+			</div>
 
-<!-- Social sharing buttons -->
-<div class="wrapper-buttons">
-  <h3 class="share-text">If you like this article, please do share it with your friends!</h3>
-  <div id="share-buttons">
-    <!-- Facebook -->
-    <a href="http://www.facebook.com/sharer.php?u=https://Blog/post1.html" target="_blank">
-      <img src="assets/img/facebook2.png" alt="Facebook" />
-    </a>
-    <!-- Twitter -->
-    <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons"
-      target="_blank">
-      <img src="assets/img/twitter2.png" alt="Twitter" />
-    </a>
-    <!-- LinkedIn -->
-    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" target="_blank">
-      <img src="assets/img/linkedin.png" alt="LinkedIn" />
-    </a>
-    <!-- Email -->
-    <a
-      href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
-      <img src="assets/img/email.png" alt="Email" />
-    </a>
-  </div>
-</div>
+			<!-- Author Info -->
+			<section class="auhor-info">
+				<div class="avatar">
+					<a href="about.html"><img class="img-avatar" src="assets/img/avatar.jpg" /></a>
+				</div>
+				<div class="wrapper-info">
+					<div class="name"><a href="about.html">ALINA GOIEA</a></div>
+					<p>Aspiring Full Stack Developer & Freelancer.</p>
+					<p>Economist, Mother of one Dragon, passionate about web development, looking for a career change.</p>
+					<p>Welcome to my playground - this blog!</p>
+				</div>
+			</section>
 
-<!-- Author Info -->
-    <section class="auhor-info">
-      <div class="avatar"><a href="about.html"><img class="img-avatar" src="assets/img/avatar.jpg"></a></div>
-      <div class="wrapper-info">
-        <div class="name"><a href="about.html">ALINA GOIEA</a></div>
-        <p>Aspiring Full Stack Developer & Freelancer.</p>
-        <p>Economist, Mother of one Dragon, passionate about web development, looking for a career change.</p>
-        <p>Welcome to my playground - this blog!</p>
-      </div>
-    </section>
-    
-<!-- Subscribe button -->
-    <div class="subscribe">
-      <div class="wrap-input1">
-        <input class="input1" type="text" name="email" placeholder="Email">
-      </div>
-      <button>Subscribe</button>
-    </div>
-  </main>
+			<!-- Subscribe button -->
+			<div class="subscribe">
+				<div class="wrap-input1">
+					<input class="input1" type="text" name="email" placeholder="Email" />
+				</div>
+				<button>Subscribe</button>
+			</div>
+		</main>
 
-<footer>
-    <h3>Copyright 2021 © Alina Goiea</h3>
-    <div class="social-media">
-      <a href="https://github.com/AlinaDev252"><img src="assets/img/github.png"></a>
-      <a href="https://www.facebook.com/alina.costache.545/"><img src="assets/img/facebook.png"></a>
-      <a href="https://twitter.com/AGoiea"><img src="assets/img/twitter.png"></a>
-      <a href="https://www.instagram.com/alina.goiea/"><img src="assets/img/instagram.png"></a>
-    </div>
-  </footer>
-
-</body>
-
+		<footer>
+			<h3>Copyright 2021 © Alina Goiea</h3>
+			<div class="social-media">
+				<a href="https://github.com/AlinaDev252"><img src="assets/img/github.png" /></a>
+				<a href="https://www.facebook.com/alina.costache.545/"><img src="assets/img/facebook.png" /></a>
+				<a href="https://twitter.com/AGoiea"><img src="assets/img/twitter.png" /></a>
+				<a href="https://www.instagram.com/alina.goiea/"><img src="assets/img/instagram.png" /></a>
+			</div>
+		</footer>
+	</body>
 </html>
