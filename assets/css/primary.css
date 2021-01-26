@@ -60,6 +60,10 @@ header {
 	background-color: #b5d2cb;
 }
 
+footer h2 {
+	font-size: 16px;
+}
+
 footer {
 	display: flex;
 	justify-content: space-between;
