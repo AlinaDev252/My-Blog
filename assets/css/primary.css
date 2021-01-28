@@ -151,19 +151,19 @@ header .logo {
 #post1 {
 	background-image: url("../img/post1.jpg");
 	background-repeat: no-repeat;
-	background-color: darkgreen;
+	background-color: rgb(0, 39, 0);
 }
 
 #post2 {
 	background-image: url("../img/post2.jpg");
 	background-repeat: no-repeat;
-	background-color: darkgreen;
+	background-color: rgb(0, 39, 0);
 }
 
 #post3 {
 	background-image: url("../img/post3.jpg");
 	background-repeat: no-repeat;
-	background-color: darkgreen;
+	background-color: rgb(0, 39, 0);
 }
 
 .card:hover {
@@ -180,7 +180,6 @@ header .logo {
 	font-size: 0.75em;
 	font-family: "DM Sans", sans-serif;
 	margin-top: 0.5em;
-	/* line-height: 2em; */
 }
 
 .card .date {
@@ -194,7 +193,7 @@ header .logo {
 	text-decoration: underline;
 }
 
-/* .card:before,
+.card:before,
 .card:after {
 	content: "";
 	transform: scale(0);
@@ -212,13 +211,13 @@ header .logo {
 	background: #fff;
 	width: 250%;
 	height: 250%;
-} */
-/* 
+}
+
 .card:after {
 	background: #fff;
 	width: 200%;
 	height: 200%;
-} */
+}
 
 .card:hover {
 	color: var(--color);
