@@ -465,11 +465,6 @@ header .logo {
 		margin-top: 0px;
 	}
 
-	.social {
-		font-size: 30px;
-		line-height: 30px;
-	}
-
 	header {
 		margin-top: 0px;
 	}
@@ -649,4 +644,9 @@ figcaption {
 	font-size: 20px;
 	font-style: bold 700;
 	font-family: "Gaegu", cursive;
+}
+
+.social {
+	font-size: 30px;
+	line-height: 30px;
 }
