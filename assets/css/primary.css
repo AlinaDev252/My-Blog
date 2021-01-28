@@ -151,19 +151,19 @@ header .logo {
 #post1 {
 	background-image: url("../img/post1.jpg");
 	background-repeat: no-repeat;
-	background-color: darkgrey;
+	background-color: darkgreen;
 }
 
 #post2 {
 	background-image: url("../img/post2.jpg");
 	background-repeat: no-repeat;
-	background-color: darkgrey;
+	background-color: darkgreen;
 }
 
 #post3 {
 	background-image: url("../img/post3.jpg");
 	background-repeat: no-repeat;
-	background-color: darkgrey;
+	background-color: darkgreen;
 }
 
 .card:hover {
@@ -209,13 +209,13 @@ header .logo {
 }
 
 .card:before {
-	background: #ddd;
+	background: #fff;
 	width: 250%;
 	height: 250%;
 }
 
 .card:after {
-	background: #e6ecec;
+	background: #fff;
 	width: 200%;
 	height: 200%;
 }
