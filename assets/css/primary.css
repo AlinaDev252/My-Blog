@@ -194,7 +194,7 @@ header .logo {
 	text-decoration: underline;
 }
 
-.card:before,
+/* .card:before,
 .card:after {
 	content: "";
 	transform: scale(0);
@@ -212,13 +212,13 @@ header .logo {
 	background: #fff;
 	width: 250%;
 	height: 250%;
-}
-
+} */
+/* 
 .card:after {
 	background: #fff;
 	width: 200%;
 	height: 200%;
-}
+} */
 
 .card:hover {
 	color: var(--color);
