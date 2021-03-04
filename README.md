@@ -8,6 +8,8 @@ For this project, I utilized my HTML and CSS skills to build out a personal blog
 Along with webpage design considerations, I worked to appropriately structure my files, as well as use proper CSS and HTML formatting & style.
 
 Project Files
+
+
 In this project, I had the oppportunity to start from scratch!
 The mandatory HTML files were related to:
 
